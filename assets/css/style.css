@@ -339,7 +339,10 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #c3d8d9; }
+    background-color: #c3d8d9;
+    transition: background-color .5s linear; }
+  .nav-redes a:hover {
+    background-color: white; }
 
 .container-maps {
   background-color: red;
